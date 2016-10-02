@@ -13,6 +13,7 @@
 		4FFB80E91DA01A32004478D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FFB80E81DA01A32004478D5 /* Assets.xcassets */; };
 		4FFB80EC1DA01A32004478D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FFB80EA1DA01A32004478D5 /* LaunchScreen.storyboard */; };
 		4FFB80F71DA01A32004478D5 /* VociferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFB80F61DA01A32004478D5 /* VociferTests.swift */; };
+		4FFB81061DA0324E004478D5 /* CIrcleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFB81051DA0324E004478D5 /* CIrcleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		4FFB80F21DA01A32004478D5 /* VociferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VociferTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FFB80F61DA01A32004478D5 /* VociferTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VociferTests.swift; sourceTree = "<group>"; };
 		4FFB80F81DA01A32004478D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FFB81051DA0324E004478D5 /* CIrcleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CIrcleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +79,10 @@
 		4FFB80E01DA01A32004478D5 /* Vocifer */ = {
 			isa = PBXGroup;
 			children = (
-				4FFB80E11DA01A32004478D5 /* AppDelegate.swift */,
-				4FFB80E31DA01A32004478D5 /* ViewController.swift */,
-				4FFB80E51DA01A32004478D5 /* Main.storyboard */,
-				4FFB80E81DA01A32004478D5 /* Assets.xcassets */,
-				4FFB80EA1DA01A32004478D5 /* LaunchScreen.storyboard */,
-				4FFB80ED1DA01A32004478D5 /* Info.plist */,
+				4FFB81031DA03027004478D5 /* Model */,
+				4FFB81021DA0301D004478D5 /* VIew */,
+				4FFB81011DA03006004478D5 /* Controller */,
+				4FFB81041DA03034004478D5 /* Resorces */,
 			);
 			path = Vocifer;
 			sourceTree = "<group>";
@@ -94,6 +94,41 @@
 				4FFB80F81DA01A32004478D5 /* Info.plist */,
 			);
 			path = VociferTests;
+			sourceTree = "<group>";
+		};
+		4FFB81011DA03006004478D5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4FFB80E11DA01A32004478D5 /* AppDelegate.swift */,
+				4FFB80E31DA01A32004478D5 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4FFB81021DA0301D004478D5 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				4FFB80E51DA01A32004478D5 /* Main.storyboard */,
+				4FFB80EA1DA01A32004478D5 /* LaunchScreen.storyboard */,
+				4FFB81051DA0324E004478D5 /* CIrcleButton.swift */,
+			);
+			name = VIew;
+			sourceTree = "<group>";
+		};
+		4FFB81031DA03027004478D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4FFB81041DA03034004478D5 /* Resorces */ = {
+			isa = PBXGroup;
+			children = (
+				4FFB80E81DA01A32004478D5 /* Assets.xcassets */,
+				4FFB80ED1DA01A32004478D5 /* Info.plist */,
+			);
+			name = Resorces;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FFB80E41DA01A32004478D5 /* ViewController.swift in Sources */,
+				4FFB81061DA0324E004478D5 /* CIrcleButton.swift in Sources */,
 				4FFB80E21DA01A32004478D5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
